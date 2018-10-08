@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEFF41">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Sender and Receiver name:-"
+        android:textSize="36dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FF8A65"
+        android:gravity="center"
+        android:id="@+id/text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLines="1"
+        android:background="#64DD17"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/editTextFrom"
+        android:layout_weight="1"
+        android:textSize="40dp"
+        android:minHeight="50dp"
+        android:hint="From"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="40dp"
+        android:background="#64DD17"
+        android:layout_below="@+id/editTextFrom"
+        android:id="@+id/editTextTo"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:minHeight="50dp"
+        android:hint="To"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/GoBack"
+        android:background="#18FFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:onClick="GoBack"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Make Birthday Card "
+        android:padding="5dp"
+        android:layout_marginBottom="25dp"
+        android:background="#7C4DFF"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/GoBack"
+        android:layout_weight="1"
+        android:id="@+id/MakeBirthdayCard"
+        android:onClick="card"/>
+
+</RelativeLayout>

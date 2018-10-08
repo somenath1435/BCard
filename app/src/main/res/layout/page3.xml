@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/happy_birthday">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textSize="25dp"
+        android:textColor="#AEEA00"
+        android:padding="5dp"
+        android:id="@+id/t"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AEEA00"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/t"
+        android:id="@+id/to"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From  "
+        android:textSize="25dp"
+        android:textColor="#AEEA00"
+        android:id="@+id/f"
+        android:layout_above="@+id/from"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/from"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="25dp"
+        android:textColor="#AEEA00"
+        android:padding="5dp"/>
+
+</RelativeLayout>
