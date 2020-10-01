@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Welcome"
+            android:text="Make"
             android:textColor="#DD2C00"
             android:autoSizeTextType="uniform"
             android:gravity="center"/>
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="To"
+            android:text="your"
             android:textColor="#DD2C00"
             android:gravity="center"
             android:autoSizeTextType="uniform"
@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="My"
+            android:text="Birthday"
             android:textColor="#DD2C00"
             android:gravity="center"
             android:autoSizeTextType="uniform"/>
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="App"
+            android:text="Card"
             android:textColor="#DD2C00"
             android:gravity="center"
             android:autoSizeTextType="uniform"/>
