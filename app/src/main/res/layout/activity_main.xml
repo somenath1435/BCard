@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="#E040FB">
+    android:background="#FF8C00">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:layout_weight="4"
         android:orientation="vertical"
         android:layout_marginTop="20dp"
-        android:background="#76FF03"
+        android:background="#FFF176"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:paddingBottom="5dp">
@@ -23,38 +23,37 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Make"
-            android:textColor="#DD2C00"
-            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:text="MAKE"
+            android:textSize="36dp"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="YOUR"
+            android:textSize="36dp"
+            android:textColor="#212121"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="BIRTHDAY"
+            android:textSize="36dp"
+            android:textColor="#212121"
             android:gravity="center"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="your"
-            android:textColor="#DD2C00"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Birthday"
-            android:textColor="#DD2C00"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Card"
-            android:textColor="#DD2C00"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"/>
+            android:text="CARD"
+            android:textSize="36dp"
+            android:textColor="#212121"
+            android:gravity="center"/>
 
     </LinearLayout>
     <LinearLayout
